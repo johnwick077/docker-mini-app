@@ -15,7 +15,7 @@ services:
     depends_on:
       - mongo
     environment:
-      - MONGO_URL=mongodb://mongo:27017/dockerlearn
+      - MONGO_URL=mongodb+srv://mini-app-db:mini@App2543@cluster0.glxlj8g.mongodb.net/?appName=Cluster0
 
   mongo:
     image: mongo:latest
